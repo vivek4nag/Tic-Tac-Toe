@@ -8,6 +8,7 @@
 
 body{
     font-family: "Poppins", system-ui;
+    background-color: #333;
 }
 
 .container{
@@ -19,6 +20,7 @@ body{
     h1{
         font-size: 2.5rem;
         font-weight: 600;
+        color: white;
     }
 }
 
@@ -57,8 +59,10 @@ body{
 }
 
 #status{
-    font-size: 30px;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    font-weight: 400;
+    color: #fff;
 }
 
 #restart{
@@ -70,7 +74,7 @@ body{
     cursor: pointer;
     transition: 0.5s;
     font-size: 1.2rem;
-    box-shadow: 0 5px 15px gray;
+    box-shadow: 0 0 15px gray;
 }
 
 #restart:hover{
